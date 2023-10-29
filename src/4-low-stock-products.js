@@ -17,6 +17,4 @@ const getLowStockProducts = (mainArray) => {
   return lowStockArray;
 };
 
-getLowStockProducts(stockProducts);
-
 module.exports = { getLowStockProducts };
