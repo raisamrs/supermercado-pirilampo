@@ -6,7 +6,7 @@ const searchProductByName = (nameProduct) => {
   let objectExpected;
   let pos = 0;
   for (let i = 0; i < mainArray.length; i += 1) {
-    if (mainArray[i].brand === searchedProduct) {
+    if (mainArray[i].productName === searchedProduct) {
       objectExpected = {
         description: mainArray[i].description,
         formattedPrice: `R$ ${mainArray[i].price}`,
@@ -14,10 +14,12 @@ const searchProductByName = (nameProduct) => {
       pos = i;
     }
   }
-  if (nameProduct === mainArray[pos].brand) {
+  if (nameProduct === mainArray[pos].productName) {
     return objectExpected;
   }
   return null;
 };
+
+searchProductByName('Feijão');
 
 module.exports = { searchProductByName };
