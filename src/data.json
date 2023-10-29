@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "productName": "Arroz",
+    "brand": "Arroz",
     "brand": "Tio João",
     "description": "Arroz integral Tio João, pacote de 1kg, rico em fibras e vitaminas.",
     "price": 10.99,
@@ -22,7 +22,7 @@
   },
   {
     "id": 2,
-    "productName": "Feijão",
+    "brand": "Feijão",
     "brand": "Camil",
     "description": "Feijão preto Camil, pacote de 1kg, fonte de proteínas e ferro.",
     "price": 8.99,
@@ -40,7 +40,7 @@
   },
   {
     "id": 3,
-    "productName": "Macarrão",
+    "brand": "Macarrão",
     "brand": "Renata",
     "description": "Macarrão Renata, pacote de 500g, fonte de carboidratos.",
     "price": 5.99,
@@ -56,7 +56,7 @@
   },
   {
     "id": 4,
-    "productName": "Açúcar",
+    "brand": "Açúcar",
     "brand": "União",
     "description": "Açúcar União, pacote de 1kg, fonte de carboidratos.",
     "price": 3.99,
@@ -70,7 +70,7 @@
   },
   {
     "id": 5,
-    "productName": "Azeite",
+    "brand": "Azeite",
     "brand": "Andorinha",
     "description": "Azeite de oliva Andorinha, garrafa de 500ml, extra virgem e rico em antioxidantes.",
     "price": 18.99,
@@ -88,7 +88,7 @@
   },
   {
     "id": 6,
-    "productName": "Granola",
+    "brand": "Granola",
     "brand": "Mãe Terra",
     "description": "Granola Mãe Terra, pacote de 300g, fonte de fibras e minerais.",
     "price": 12.99,
@@ -105,7 +105,7 @@
   },
   {
     "id": 7,
-    "productName": "Batata",
+    "brand": "Batata",
     "brand": "Agrocampo",
     "description": "Batata Agrocampo, saco de 2kg, fonte de carboidratos e fibras.",
     "price": 7.99,
@@ -173,7 +173,7 @@
   },
   {
     "id": 11,
-    "productName": "Suco de uva",
+    "brand": "Suco de uva",
     "brand": "Del Valle",
     "description": "Suco de uva Del Valle, garrafa de 1L, sem adição de açúcares e conservantes.",
     "price": 7.99,
@@ -190,7 +190,7 @@
   },
   {
     "id": 12,
-    "productName": "Pizza congelada",
+    "brand": "Pizza congelada",
     "brand": "Sadia",
     "description": "Pizza sabor muçarela Sadia, caixa de 450g, massa crocante e queijo derretido.",
     "price": 12.99,
@@ -227,7 +227,7 @@
   },
   {
     "id": 14,
-    "productName": "Nozes",
+    "brand": "Nozes",
     "brand": "Fazenda São Francisco",
     "description": "Nozes sem casca Fazenda São Francisco, pacote de 200g, fonte de gorduras boas e minerais.",
     "price": 19.99,
@@ -247,7 +247,7 @@
   },
   {
     "id": 15,
-    "productName": "Salmão",
+    "brand": "Salmão",
     "brand": "Seara",
     "description": "Filé de salmão Seara, embalagem de 500g, fonte de proteínas e ômega-3.",
     "price": 39.99,
@@ -268,7 +268,7 @@
   },
   {
     "id": 16,
-    "productName": "Carne moída",
+    "brand": "Carne moída",
     "brand": "Swift",
     "description": "Carne bovina moída Swift, pacote de 500g, ideal para preparar diversas receitas.",
     "price": 14.99,
@@ -287,7 +287,7 @@
   },
   {
     "id": 17,
-    "productName": "Laranja",
+    "brand": "Laranja",
     "brand": "Fazenda Doce Sabor",
     "description": "Laranja fresca Fazenda Doce Sabor, saco com 2kg, fonte de vitamina C.",
     "price": 7.99,
@@ -376,7 +376,7 @@
   },
   {
     "id": 22,
-    "productName": "Cerveja IPA Colorado",
+    "brand": "Cerveja IPA Colorado",
     "brand": "Colorado",
     "description": "Cerveja India Pale Ale Colorado, lata de 473ml, sabor amargo e intenso.",
     "price": 9.99,
@@ -395,7 +395,7 @@
   },
   {
     "id": 23,
-    "productName": "Cerveja sem glúten",
+    "brand": "Cerveja sem glúten",
     "brand": "Daura",
     "description": "Cerveja sem glúten Daura, garrafa de 330ml, sabor equilibrado e leve.",
     "price": 8.99,
@@ -410,7 +410,7 @@
   },
   {
     "id": 24,
-    "productName": "Alface",
+    "brand": "Alface",
     "brand": "Hortifruti",
     "description": "Alface Hortifruti, pacote de 200g, folhas frescas e crocantes.",
     "price": 4.99,
@@ -470,7 +470,7 @@
   },
   {
     "id": 27,
-    "productName": "Cenoura",
+    "brand": "Cenoura",
     "brand": "Hortifruti",
     "description": "Cenoura Hortifruti, pacote de 500g, cenouras frescas e crocantes.",
     "price": 3.99,
