@@ -3,8 +3,8 @@ const stockProducts = require('./data.json');
 const getProductsAmount = (mainArray) => {
   mainArray = stockProducts;
   let quantity = 0;
-  for (let index = 0; index < mainArray.length; index += 1) {
-    quantity += mainArray[index].quantityInStock;
+  for (let i = 0; i < mainArray.length; i += 1) {
+    quantity += mainArray[i].quantityInStock;
   }
   return quantity;
 };

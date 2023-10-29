@@ -7,8 +7,8 @@ const getUniqueProductsName = (mainArray) => {
   let formater = /\s*,\s*/;
   if (mainArray.length > 0) {
     let counter = mainArray[0].productName;
-    for (let index = 1; index < mainArray.length; index += 1) {
-      counter = `${counter}, ${mainArray[index].productName}`;
+    for (let i = 1; i < mainArray.length; i += 1) {
+      counter = `${counter}, ${mainArray[i].productName}`;
     }
     arrayProductsName = counter.split(formater);
   } else if (mainArray.length === 0) {

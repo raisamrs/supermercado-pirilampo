@@ -4,10 +4,10 @@ const getOutOfStockProducts = (mainArray) => {
   mainArray = stockProducts;
   let formater = /\s*,\s*/;
   let counter = '';
-  let index = 0;
-  for (index = 0; index < mainArray.length; index += 1) {
-    let productOutOfStock = mainArray[index].productName;
-    if (mainArray[index].quantityInStock === 0) {
+  let i = 0;
+  for (i = 0; i < mainArray.length; i += 1) {
+    let productOutOfStock = mainArray[i].productName;
+    if (mainArray[i].quantityInStock === 0) {
       counter = `${counter}, ${productOutOfStock}`;
     }
   } counter = counter.slice(2).split(formater);

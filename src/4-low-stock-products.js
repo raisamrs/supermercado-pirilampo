@@ -5,9 +5,9 @@ const getLowStockProducts = (mainArray) => {
 
   let lowStockArray = [];
 
-  for (let index = 0; index < mainArray.length; index += 1) {
-    let quantity = mainArray[index].quantityInStock;
-    let productName = mainArray[index].productName;
+  for (let i = 0; i < mainArray.length; i += 1) {
+    let quantity = mainArray[i].quantityInStock;
+    let productName = mainArray[i].productName;
     if (quantity > 0 && quantity <= 10) {
       lowStockArray.push(
         `${productName}: ${quantity} unidades`,
