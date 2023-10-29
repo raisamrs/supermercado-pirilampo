@@ -2,7 +2,6 @@ const stockProducts = require('./data.json');
 
 const getOutOfStockProducts = (mainArray) => {
   mainArray = stockProducts;
-  /* let arrayProductsOutOfStock = []; */
   let formater = /\s*,\s*/;
   let counter = '';
   let index = 0;
@@ -14,6 +13,4 @@ const getOutOfStockProducts = (mainArray) => {
   } counter = counter.slice(2).split(formater);
   return counter;
 };
-
-getOutOfStockProducts(stockProducts);
 module.exports = { getOutOfStockProducts };
