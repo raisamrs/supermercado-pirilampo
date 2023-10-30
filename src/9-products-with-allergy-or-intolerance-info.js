@@ -15,5 +15,4 @@ const getProductsWithAllergyOrIntoleranceInfo = (mainArray) => {
   }
   return objectExpected;
 };
-getProductsWithAllergyOrIntoleranceInfo(stockProducts);
 module.exports = { getProductsWithAllergyOrIntoleranceInfo };
