@@ -18,10 +18,5 @@ const getProductsRichInVitamin = (mainArray) => {
   }
   return arrayExpected;
 };
-/*   const teste = mainArray[17].nutritionalInfo.vitamins;
-  console.log(teste);
-  const array = Object.entries(teste).map(([key, value]) => `${key} - ${value}`);
-  console.log(array); */
 
-getProductsRichInVitamin(stockProducts);
 module.exports = { getProductsRichInVitamin };
