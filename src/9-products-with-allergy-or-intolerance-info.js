@@ -1,18 +1,20 @@
 const stockProducts = require('./data.json');
 
-const getProductsWithAllergyOrIntoleranceInfo = (mainArray) => {
-  mainArray = stockProducts;
+const getProductsWithAllergyOrIntoleranceInfo = () => {
   let objectExpected = [];
-  for (let i = 0; i < mainArray.length; i += 1) {
-    if (mainArray[i].allergyOrIntolerance !== undefined) {
-      let productAllerOrIntoNoComma = mainArray[i].allergyOrIntolerance.join(' ');
+
+  stockProducts.forEach((product) => {
+    if (product.allergyOrIntolerance !== undefined) {
+      let productAllerOrIntoNoComma = product.allergyOrIntolerance.join(' ');
       objectExpected.push({
-        description: mainArray[i].description,
-        formattedPrice: `R$ ${mainArray[i].price}`,
+        description: product.description,
+        formattedPrice: `R$ ${product.price}`,
         allergyOrIntoleranceMessage: `Pode conter: ${productAllerOrIntoNoComma}`,
       });
     }
-  }
+  });
+
   return objectExpected;
 };
+
 module.exports = { getProductsWithAllergyOrIntoleranceInfo };

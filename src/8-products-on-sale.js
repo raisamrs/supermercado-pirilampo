@@ -13,6 +13,8 @@ const getProductsOnSale = (mainArray) => {
     }
   }
   return objectExpected;
+  /*   console.log(`${mainArray[0].price} reais`); */
 };
+getProductsOnSale(stockProducts);
 
 module.exports = { getProductsOnSale };
