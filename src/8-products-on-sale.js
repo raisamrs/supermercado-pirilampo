@@ -1,3 +1,5 @@
+// * Crie uma função que busque por produtos na promoção
+
 const stockProducts = require('./data.json');
 
 const getProductsOnSale = (mainArray) => {
@@ -18,3 +20,6 @@ const getProductsOnSale = (mainArray) => {
 getProductsOnSale(stockProducts);
 
 module.exports = { getProductsOnSale };
+
+// * Retorno da função:
+console.log(getProductsOnSale(stockProducts));

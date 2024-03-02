@@ -9,7 +9,8 @@ const getProductsAmount = (mainArray) => {
   }
   return quantity;
 };
-//* Retorno da função:
-console.log(getProductsAmount(stockProducts));
 
 module.exports = { getProductsAmount };
+
+//* Retorno da função:
+console.log(getProductsAmount(stockProducts));

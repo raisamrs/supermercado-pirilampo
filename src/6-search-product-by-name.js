@@ -1,3 +1,4 @@
+// * Crie uma função que busque um produto pelo nome
 const stockProducts = require('./data.json');
 
 const searchProductByName = (nameProduct) => {
@@ -19,7 +20,8 @@ const searchProductByName = (nameProduct) => {
   }
   return null;
 };
-
-searchProductByName('Feijão');
+//* Retorno da função
+//* Sinta-se à vontade para modificar o valor do argumento. Verifique no data.json a chave "productName" dos objetos e substitua à vontade 😉
+console.log(searchProductByName('Feijão'));
 
 module.exports = { searchProductByName };

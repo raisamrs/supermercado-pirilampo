@@ -28,7 +28,7 @@ Como minha responsabilidade é pela parte lógica, nenhuma tela foi desenvolvida
 ## Rodando localmente:
 Você pode usar o [Visual Studio Code (vulgo VS Code)](https://code.visualstudio.com/download) e instalar a dependência [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner).
 
-1. Clone o projeto.  Você pode fazer isso via **`HTTP`** ou via **`SSH`**.
+1. Clone o projeto.  Você pode fazer isso via **`HTTP`** ou via **`SSH`**;
 
 ### Via HTTP:
 ```bash
@@ -39,10 +39,21 @@ git clone https://github.com/raisamrs/supermercado-pirilampo.git
 git clone git@github.com:raisamrs/supermercado-pirilampo.git
 ```
 
-2. Entre no diretório do projeto
+2. Entre no diretório do projeto;
 
 ```bash
   cd supermercado-pirilampo
 ```
+<<<<<<< HEAD
 3. Execute o comando `npm install` no terminal
 🚨 Pode ser que a saída do npm install sugira utilizar o comando `npm audit`. **NÃO** execute esse comando.
+=======
+3. Execute o comando `npm install` no terminal;
+🚨 Pode ser que a saída do npm install sugira utilizar o comando `npm audit`. **NÃO** execute esse comando.
+
+4. Digite `.code` no terminal para abrir o código no VS Code;
+
+5. No diretório `src`, os arquivos com as funções serão encontrados. Por exemplo:
+`6-search-product-by-name.js`. Abra as funções que desejar e as execute clicando no ícone do **Code Runner**, como na imagem abaixo:
+![Execução do Code Runner](src/imgs/Executando o Code Runner -1.png)
+>>>>>>> 3bbd47a (chore: inserção de console.log e comentários nas funções)

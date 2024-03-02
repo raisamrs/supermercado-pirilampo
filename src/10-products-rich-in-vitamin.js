@@ -1,3 +1,4 @@
+// * Crie uma função que retorne todos os produtos que possuam alguma vitamina em seu valor nutricional
 const stockProducts = require('./data.json');
 
 const getProductsRichInVitamin = (mainArray) => {
@@ -20,3 +21,6 @@ const getProductsRichInVitamin = (mainArray) => {
 };
 
 module.exports = { getProductsRichInVitamin };
+
+// * Retorno da função:
+console.log(getProductsRichInVitamin(stockProducts));

@@ -18,7 +18,8 @@ const getLowStockProducts = (mainArray) => {
   }
   return lowStockArray;
 };
-//* Retorno da função
-console.log(getLowStockProducts(stockProducts));
 
 module.exports = { getLowStockProducts };
+
+//* Retorno da função
+console.log(getLowStockProducts(stockProducts));

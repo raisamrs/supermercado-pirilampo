@@ -1,3 +1,4 @@
+//* Crie uma função que retorne todos os produtos com informações sobre alergia ou intolerância
 const stockProducts = require('./data.json');
 
 const getProductsWithAllergyOrIntoleranceInfo = () => {
@@ -18,3 +19,6 @@ const getProductsWithAllergyOrIntoleranceInfo = () => {
 };
 
 module.exports = { getProductsWithAllergyOrIntoleranceInfo };
+
+// * Retorno da função:
+console.log(getProductsWithAllergyOrIntoleranceInfo());

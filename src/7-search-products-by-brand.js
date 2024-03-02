@@ -1,3 +1,4 @@
+// * Crie uma função que busque por produtos de uma marca específica
 const stockProducts = require('./data.json');
 
 const searchProductsByBrand = (brand) => {
@@ -16,3 +17,6 @@ const searchProductsByBrand = (brand) => {
 };
 
 module.exports = { searchProductsByBrand };
+//* Retorno da função
+//* Sinta-se à vontade para modificar o valor do argumento. Verifique no data.json a chave "brand" dos objetos e substitua à vontade 😉
+console.log(searchProductsByBrand('Andorinha'));
