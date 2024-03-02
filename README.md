@@ -44,10 +44,6 @@ git clone git@github.com:raisamrs/supermercado-pirilampo.git
 ```bash
   cd supermercado-pirilampo
 ```
-<<<<<<< HEAD
-3. Execute o comando `npm install` no terminal
-🚨 Pode ser que a saída do npm install sugira utilizar o comando `npm audit`. **NÃO** execute esse comando.
-=======
 3. Execute o comando `npm install` no terminal;
 🚨 Pode ser que a saída do npm install sugira utilizar o comando `npm audit`. **NÃO** execute esse comando.
 
