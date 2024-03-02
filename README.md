@@ -55,5 +55,10 @@ git clone git@github.com:raisamrs/supermercado-pirilampo.git
 
 5. No diretório `src`, os arquivos com as funções serão encontrados. Por exemplo:
 `6-search-product-by-name.js`. Abra as funções que desejar e as execute clicando no ícone do **Code Runner**, como na imagem abaixo:
-![Execução do Code Runner](src/imgs/Executando o Code Runner -1.png)
->>>>>>> 3bbd47a (chore: inserção de console.log e comentários nas funções)
+
+![Execução do Code Runner](https://github.com/raisamrs/supermercado-pirilampo/blob/main/src/imgs/Executando%20o%20Code%20Runner%20-1.png)
+
+
+## Autora:
+- [@raisamrs](https://www.github.com/raisamrs)
+
