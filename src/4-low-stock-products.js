@@ -1,3 +1,5 @@
+//* Crie uma função que retorne os produtos com baixo estoque (entre 1 e 10 unidades) em um formato específico
+
 const stockProducts = require('./data.json');
 
 const getLowStockProducts = (mainArray) => {
@@ -16,5 +18,7 @@ const getLowStockProducts = (mainArray) => {
   }
   return lowStockArray;
 };
+//* Retorno da função
+console.log(getLowStockProducts(stockProducts));
 
 module.exports = { getLowStockProducts };

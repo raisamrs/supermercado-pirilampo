@@ -1,3 +1,4 @@
+//* Crie uma função que retorne o total de produtos em estoque
 const stockProducts = require('./data.json');
 
 const getProductsAmount = (mainArray) => {
@@ -8,5 +9,7 @@ const getProductsAmount = (mainArray) => {
   }
   return quantity;
 };
+//* Retorno da função:
+console.log(getProductsAmount(stockProducts));
 
 module.exports = { getProductsAmount };

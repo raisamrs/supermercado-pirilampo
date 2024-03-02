@@ -1,3 +1,4 @@
+//*  Crie uma função que retorne os nomes dos produtos indisponíveis do estoque
 const stockProducts = require('./data.json');
 
 const getOutOfStockProducts = (mainArray) => {
@@ -14,3 +15,6 @@ const getOutOfStockProducts = (mainArray) => {
   return counter;
 };
 module.exports = { getOutOfStockProducts };
+
+//* Retorno da função
+console.log(getOutOfStockProducts(stockProducts));

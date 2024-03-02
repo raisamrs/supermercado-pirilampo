@@ -1,3 +1,5 @@
+// *2 - Crie uma função que retorne os nomes dos produtos únicos em estoque
+
 const stockProducts = require('./data.json');
 
 const getUniqueProductsName = (mainArray) => {
@@ -19,3 +21,6 @@ const getUniqueProductsName = (mainArray) => {
 
 getUniqueProductsName('./data.json');
 module.exports = { getUniqueProductsName };
+
+//* Retorno da função
+console.log(getUniqueProductsName(stockProducts));
